@@ -64,6 +64,13 @@ def extraLongFactorials(n):
         total *= i #Increment the total variable
     print(total)
 extraLongFactorials(25)
+#Staircase
+#https://www.hackerrank.com/challenges/staircase/problem
+def staircase(n):
+    for i in range (1,n+1):
+        hsh = "#" * i 
+        print(hsh.rjust(n))
+staircase(6)
 #Append and Delete
 #https://www.hackerrank.com/challenges/append-and-delete/problem?h_r=next-challenge&h_v=zen
 def appendAndDelete(s,t,k):

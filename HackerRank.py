@@ -71,7 +71,23 @@ def staircase(n):
         hsh = "#" * i 
         print(hsh.rjust(n))
 staircase(6)
+#MinMaxSum
+#https://www.hackerrank.com/challenges/mini-max-sum/problem?h_r=next-challenge&h_v=zen
+def miniMaxSum(arr):
+    imin = []
+    imax = []
+    for i in range(len(arr)):
+        if not arr[i] == min(arr):
+            imax.append(arr[i])
+            fmax = sum(imax)
+        if not arr[i] == max(arr):
+            imin.append(arr[i])
+            fmin = sum(imin)
+    print(fmin,fmax)
+jj = [1,2,3,4,5]
+miniMaxSum(jj)
+#Passed all test cases but there was a run time erro. Fix this later
 #Append and Delete
 #https://www.hackerrank.com/challenges/append-and-delete/problem?h_r=next-challenge&h_v=zen
-def appendAndDelete(s,t,k):
-    for i 
+#def appendAndDelete(s,t,k):
+#    for i 

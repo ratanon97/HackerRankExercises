@@ -13,6 +13,10 @@ def weird(n):
 weird(4)
 
 #Algorithms Warmup
+#Simple Array Sum
+#https://www.hackerrank.com/challenges/simple-array-sum/problem
+def simpleArraySum(ar):
+    return sum(ar)
 #Compare the Triplets
 #https://www.hackerrank.com/challenges/compare-the-triplets/problem
 def comparetriplets(a,b):
@@ -84,8 +88,6 @@ def miniMaxSum(arr):
             imin.append(arr[i])
             fmin = sum(imin)
     print(fmin,fmax)
-jj = [1,2,3,4,5]
-miniMaxSum(jj)
 #Passed all test cases but there was a run time erro. Fix this later
 #Append and Delete
 #https://www.hackerrank.com/challenges/append-and-delete/problem?h_r=next-challenge&h_v=zen

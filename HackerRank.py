@@ -38,10 +38,10 @@ def aVeryBigSum(ar):
 #A Diagnoal Difference
 #https://www.hackerrank.com/challenges/diagonal-difference/problem?h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen
 def diagonalDifference(arr):
-    ctr = 0
-    rctr = len(arr)-1
+    ctr = 0 #Initialise counter to zero
+    rctr = len(arr)-1 #Initialise reversed counter to the length of the array, subtract by 1
     ltrd = []
-    rtld = []
+    rtld = [] #Initialise empty lists
     for i in range(len(arr)):
         ltrd.append(arr[ctr][ctr])
         ctr += 1
